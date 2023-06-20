@@ -1,0 +1,59 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #beb0b0;
+  }
+  
+  /* Header Styles */
+  h1 {
+    color: #333;
+    margin-top: 30px;
+  }
+  
+  /* Sudoku Grid Styles */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(9, 40px);
+    grid-template-rows: repeat(9, 40px);
+    grid-gap: 2px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cell {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    background-color: #fff;
+    border: 1px solid #999;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .solved {
+    background-color: #aaffaa;
+  }
+  
+  /* Solve Button Styles */
+  #solveButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  /* Solution Message Styles */
+  #solutionMessage {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
